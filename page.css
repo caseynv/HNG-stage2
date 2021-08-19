@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.background-image{
+    /* The image used */
+    background-image: url("backdrop.jpg");
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navbar-toggler{
+    border: 1px solid;
+    color: white;
+}
+
+.sect{
+    align-items: center;
+    justify-content: center;
+}
+
+.sect2{
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+
+.bio{
+    min-height: 60vh;
+    color: white;
+    padding-top: 250px;
+}
+
+.info{
+    padding-left: 45px;
+}
+
+.social{
+    background-color: lightslategray;
+}
+
+.social1{
+    color: white;
+}
+
+.ig{
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+
+.soc{
+    width: 51px;
+    height: 48px;
+}
+
+.hicon{
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link{
+    color: white !important;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.primary{
+    margin-right: 10px;
+    background-color: #378C3F;
+    width: 40%;
+}
+
+.hill{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h5{
+    margin-bottom: 20px;
+}
+
+.html{
+    padding-top: 40px;
+}
+
+.css{
+    padding-top: 40px;
+}
+
+.java{
+    padding-top: 40px;
+}
+
+.react{
+    padding-top: 40px;
+}
+
+.python{
+    padding-top: 40px;
+}
+
+.boot{
+    padding-top: 30px;
+}
+
+.button-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.point1{
+    background-color: #378C3F !important;
+}
+
+.Skills{
+    min-height: 50vh;
+    margin-bottom: 80px;
+}
+
+.progress-bar{
+    color:#378C3F !important;
+
+}
+
+.bar1{
+    background-color: #378C3F !important;
+    width: 85%;
+    color: white !important;
+}
+
+.bar2{
+    background-color: #378C3F !important;
+    width: 45%;
+    color: white !important;
+}
+
+.Experience{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title{
+    padding-bottom: 30px;
+}
+
+.card{
+    margin-bottom: 25px;
+}
+
+.btn-twitter {
+    color: #55acee; }
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
+    color: #3ea1ec; }
+  
+.btn-facebook {
+    color: #3b5998; }
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active {
+    color: #344e86; }
+  
+.btn-google {
+    color: #dd4b39; }
+.btn-google:hover, .btn-google:focus, .btn-google:active {
+    color: #d73925; }
+  
+.btn-linkedin {
+    color: #0077B5; }
+.btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active {
+    color: #00669c; }
+
+
+.background-image2{
+        /* The image used */
+    background-image: url("staticmap.png");
+      
+        /* Full height */
+    height: 100vh;
+      
+        /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    
+.forms{
+    background-color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 75px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+        
+.input-group{
+    margin-bottom: 20px;
+}
+    
+.left1{
+    margin-bottom: 20px;
+}
+    
+.button2{
+    margin-top: 20px;
+    background-color: #378C3F;
+}
+
+.btn2{
+    background-color: #378C3F;
+}
+
+.head{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.colu2{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.bel{
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}  
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #378C3F;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
